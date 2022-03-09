@@ -45,7 +45,7 @@
 			}
 
 			let sale = Math.random();
-			if(sale >= 0.6 && sale <= 0.9){
+			if(sale >= 0.4 && sale <= 0.9){
 				let salePrice = Number.parseInt(price*sale);
 				salePrice -= salePrice%stepPrice;
 				if(salePrice >= minPrice && salePrice <= maxPrice){
